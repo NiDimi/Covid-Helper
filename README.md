@@ -1,16 +1,16 @@
-# covid_helper
+# Covid Helper
 
-A new Flutter project.
+A simple project, written in Flutter, that helps people living in Greece send the required SMS to go outside
 
-## Getting Started
+## Basic Idea
 
-This project is a starting point for a Flutter application.
+During the lockdown in Greece the only way to get outside was to send a message with a number that described the reason
+you are going outside, your name and you address.
 
-A few resources to get you started if this is your first Flutter project:
+## User Interface
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+![Image of the options screen](./ui_images/options_screen.jpg)
+![Image of the set up screen](./ui_images/set_up_screen.jpg)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+In this simple app you just set up your name and address, and then you tap the reason you want to go outside, and it
+sends an SMS automatically for you.
